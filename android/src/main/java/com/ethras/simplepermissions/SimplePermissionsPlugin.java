@@ -127,6 +127,9 @@ public class SimplePermissionsPlugin implements MethodCallHandler, PluginRegistr
             case "WRITE_CONTACTS":
                 res = Manifest.permission.WRITE_CONTACTS;
                 break;
+            case "GET_ACCOUNTS":
+                res = Manifest.permission.GET_ACCOUNTS;
+                break;
             default:
                 res = "ERROR";
                 break;

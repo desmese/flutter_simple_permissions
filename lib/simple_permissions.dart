@@ -80,7 +80,8 @@ enum Permission {
   ReadSms,
   SendSMS,
   Vibrate,
-  WriteContacts
+  WriteContacts,
+  GetAccounts,
 }
 
 /// Permissions status enum (iOs: notDetermined, restricted, denied, authorized, deniedNeverAsk)
@@ -143,6 +144,9 @@ String getPermissionString(Permission permission) {
       break;
     case Permission.WriteContacts:
       res = "WRITE_CONTACTS";
+      break;
+    case Permission.GetAccounts:
+      res = "GET_ACCOUNTS";
       break;
   }
   return res;
