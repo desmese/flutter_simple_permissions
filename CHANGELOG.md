@@ -1,3 +1,6 @@
+## [0.2.0] - 23.10.2018
+* Support Get Accounts (Android)
+
 ## [0.1.9] - 15.10.2018
 * Support Motion permission (iOS)
 * Reduce minimum iOS deployment target to 9.3

@@ -46,6 +46,9 @@ enum Permission {
 
   // Read contacts (Android) / Contacts iOS
   ReadContacts
+
+  // Get contacts (Android)
+  GetAccounts
 }
 ```
 
